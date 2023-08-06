@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry poin
  *
  * Return: Always 0 (Success)
  */
@@ -9,9 +9,9 @@
 int main(void)
 {
 	int c;
-	int LF = 10;
+	const int LF = 10;
 
-	for (c = 97 ; c <= 122 ; c++)
+	for (c = 122 ; c >= 97 ; c--)
 		putchar(c);
 	putchar(LF);
 	getchar();

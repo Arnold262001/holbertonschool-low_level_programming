@@ -4,7 +4,7 @@
  * main - Poitn Entry
  *
  * Return: Always 0 (Succes)
- **/
+ */
 
 int main(void)
 {

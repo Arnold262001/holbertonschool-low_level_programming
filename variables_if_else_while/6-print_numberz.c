@@ -8,12 +8,11 @@
 
 int main(void)
 {
-	int c;
-	int LF = 10;
+	int n;
 
-	for (c = 97 ; c <= 122 ; c++)
-		putchar(c);
-	putchar(LF);
+	for (n = 48 ; n <= 57 ; n++)
+		putchar(n);
+	putchar(10);
 	getchar();
 	return (0);
 }

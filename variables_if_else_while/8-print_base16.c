@@ -8,11 +8,16 @@
 
 int main(void)
 {
+	int n;
 	int c;
-	int LF = 10;
+	const int LF = 10;
 
-	for (c = 97 ; c <= 122 ; c++)
+	for (n = 48 ; n <= 57 ; n++)
+		putchar(n);
+
+	for (c = 97 ; c <= 102 ; c++)
 		putchar(c);
+
 	putchar(LF);
 	getchar();
 	return (0);
