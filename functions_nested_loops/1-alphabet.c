@@ -1,16 +1,19 @@
 #include "main.h"
+
 /**
- * print_alphabet - print alphabet lowercase
+ * print_alphabet - print alphabet in lowercase to stdout
  *
- * return: returned void
+ * Return: void
  */
+
 void print_alphabet(void)
 {
-	int c;
+	int start = 97;
 
-	for (c = 97; c <= 122; c++)
+	while (start <= 122)
 	{
-		_putchar(c);
+		_putchar(start);
+		start++;
 	}
 	_putchar('\n');
 }
