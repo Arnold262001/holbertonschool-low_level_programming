@@ -9,7 +9,17 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *ptr;
-	ptr = strcpy(dest, src);
-	return (ptr);
+	int lenTxt;
+	int i;
+
+	lenTxt = strlen(src);
+
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+
+	dest[lenTxt] = '\0';
+
+	return (dest);
 }
